@@ -1,0 +1,52 @@
+body {
+    background-color:grey;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja-madre {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+
+#pachadex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+}
+
+.tarjeta {
+    list-style: none;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #222;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    animation: bounce 0.5s linear;
+}
+
+.tarjeta-titulo {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+}
+.tarjeta-subtitulo {
+    margin-top: 5px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.tarjeta-imagen {
+    height: 180px;
+}
